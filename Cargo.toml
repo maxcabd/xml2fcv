@@ -1,0 +1,13 @@
+[package]
+name = "xml2fcv"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# used for reading and writing XML files
+quick-xml = "0.29.0"
+
+# used for reading and writing CyberConnect2's XFBIN files
+xfbin = { path = "../xfbin-dev" }
